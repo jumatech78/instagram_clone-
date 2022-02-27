@@ -4,12 +4,12 @@
   justify-content: space-between;
   padding-left: 150px;
   padding-right: 150px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   border-bottom: 1px solid lightgray;
 }
 .navbar_logo{
-    width: 120px;
+    width: 110px;
 }
 .navbar_logo:hover{
     cursor: pointer;
@@ -34,8 +34,8 @@
 }
 .search_icon{
     margin: 0 !important;
-    width: 20px !important;
-    height: 20px !important;
+    width: 19px !important;
+    height: 19px !important;
     color: grey;
 }
 .navbar_icons{
@@ -43,7 +43,7 @@
     align-items: center;
 }
 .navbar_icon{
-    font-size: 28px !important;
+    font-size: 27px !important;
     margin-left: 5px;
     margin-right: 5px;
 }
