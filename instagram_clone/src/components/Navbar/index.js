@@ -18,12 +18,11 @@ function Navbar(){
                 <input className='search-input' placeholder='search'/>
             </div>
             <div className='navbar_icons'>
-                <h3>icons</h3>
-                {/* <HomeIcon/>
+                <HomeIcon/>
                 <SendIcon/>
                 <AddIcon/>
                 <ExploreIcon/>
-                <FavoriteBorderIcon/> */}
+                <FavoriteBorderIcon/>
             </div>
         </div>
     )
