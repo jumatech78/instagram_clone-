@@ -15,7 +15,7 @@ function Navbar(){
                 <img className='navbar_logo' src='/logo.png'/>
             </div>
             <div className='search_section'>
-                <SearchIcon size={10} className='search_icon'/>
+                <SearchIcon size={12} className='search_icon'/>
                 <input className='search-input' placeholder='search'/>
             </div>
             <div className='navbar_icons'>
