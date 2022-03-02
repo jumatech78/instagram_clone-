@@ -6,9 +6,9 @@ function AvatarCard(props) {
   return (
     <div className='container'>
     <div className='avatar_container'>
-      <Avatar className='avatar' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTgzw_EbkMKk_l7Bx816GKDY_lJrGFA7yEVQ&usqp=CAU"/>
+      <Avatar className='avatar' src={props.post_story.photo}/>
     </div>
-    <h6 className='avatar_name'>juma</h6>
+    <h6 className='avatar_name'>{props.post_story.name}</h6>
     </div>
   )
 }

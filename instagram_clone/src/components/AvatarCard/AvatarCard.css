@@ -4,6 +4,9 @@
     justify-content: center;
     flex-direction: column;
 }
+.container:hover{
+    cursor: pointer;
+}
 .avatar_name{
     margin: 3px;
 }

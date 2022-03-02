@@ -19,6 +19,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .profile_section{
   flex: 0.3;
+  margin-left: 20px;
 }
 .avatar_section{
   height: 110px;

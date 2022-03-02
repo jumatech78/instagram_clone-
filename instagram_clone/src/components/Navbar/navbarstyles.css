@@ -10,6 +10,7 @@
 }
 .navbar_logo{
     width: 100px;
+    margin-left: 30px;
 }
 .navbar_logo:hover{
     cursor: pointer;
@@ -26,6 +27,7 @@
     align-items: center;
     padding-left: 18px;
     padding-right: 18px;
+    margin-left: 230px;
 }
 .search-input{
     outline: none;
@@ -41,7 +43,6 @@
 .navbar_icons{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 }
 .navbar_icon{
     font-size: 28px !important;
