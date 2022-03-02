@@ -2,7 +2,7 @@ import React from 'react'
 import Avatar from '@mui/material/Avatar'
 import './AvatarCard.css'
 
-function AvatarCard() {
+function AvatarCard(props) {
   return (
     <div className='container'>
     <div className='avatar_container'>
