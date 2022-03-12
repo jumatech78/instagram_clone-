@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import AvatarCard from "./components/AvatarCard";
+import Card from "./components/Card";
 
 function App() {
   const stories = [
@@ -42,6 +43,7 @@ function App() {
             <AvatarCard />
             <AvatarCard /> */}
           </div>
+          <Card/>
         </div>
         <div className="profile_section">
           <h3>UserProfile</h3>

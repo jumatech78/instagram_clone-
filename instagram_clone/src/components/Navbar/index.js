@@ -20,7 +20,7 @@ function Navbar() {
       </div>
       <div className="navbar_icons">
         <HomeIcon className="navbar_icon" />
-        <Badge badgeContent={2} color="primary">
+        <Badge className='badge' badgeContent={2} color="primary">
           <SendIcon
             className="navbar_icon"
             style={{ transform: "rotate(320deg)" }}
