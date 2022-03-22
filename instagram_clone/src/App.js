@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import AvatarCard from "./components/AvatarCard";
-import Card from "./components/Card";
+import PostCard from "./components/PostCard";
 
 function App() {
   const stories = [
@@ -39,11 +39,9 @@ function App() {
             {
               stories.map(story=>(<AvatarCard post_story={story}/>))
             }
-            {/* <AvatarCard />
-            <AvatarCard />
-            <AvatarCard /> */}
+           
           </div>
-          <Card/>
+          <PostCard/>
         </div>
         <div className="profile_section">
           <h3>UserProfile</h3>

@@ -1,0 +1,34 @@
+.post_card{
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    max-height: fit-content;
+}
+.post_title{
+    display: flex;
+    align-items: center;
+}
+.post_title > h5{
+    margin-left: 10px;
+}
+.post_card_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.menu_icon:hover{
+    cursor: pointer;
+}
+.post_card_body > img{
+    height: 500px;
+    width: 100%;
+}
+.card_footer{
+    padding: 10px 20px;
+}
+.card_footer_chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
