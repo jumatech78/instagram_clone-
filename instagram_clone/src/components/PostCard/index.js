@@ -3,8 +3,10 @@ import "./PostCard.css";
 import Avatar from "@mui/material/Avatar";
 import MoreHoriz from "@mui/icons-material/MoreHoriz";
 import FavoriteBorder from "@mui/icons-material/FavoriteBorder";
+import ContactSupportOutlinedIcon from "@mui/icons-material/ContactSupportOutlined";
 import SendIcon from "@mui/icons-material/Send";
 import BookmarkBorder from "@mui/icons-material/BookmarkBorder";
+import SentimentSatisfiedAltOutlinedIcon from "@mui/icons-material/SentimentSatisfiedAltOutlined";
 
 function PostCard() {
   return (
@@ -27,6 +29,7 @@ function PostCard() {
         <div className="card_footer_chat">
           <div>
             <FavoriteBorder />
+            <ContactSupportOutlinedIcon style={{ paddingLeft:10}}/>
             <SendIcon style={{marginLeft:10}} />
           </div>
           <div>
@@ -37,6 +40,7 @@ function PostCard() {
       <div style={{
         display:'flex',
         alignItems:'center',
+        // paddingBottom:30
       }}>
         <Avatar style={{
           marginRight:20,
@@ -50,8 +54,16 @@ function PostCard() {
         <h5 style={{
           fontWeight:'100',
           marginTop:2,
-          padding:20
+          paddingLeft:20,
+          // paddingBottom:30
         }}>5 hours ago</h5>
+      </div>
+      <div className="footer_end_container">
+        <div className="footer_comment_section">
+          <SentimentSatisfiedAltOutlinedIcon/>
+          <input className="footer_input_section" placeholder="Add a comment..."/>
+        </div>
+        <h4>Post</h4>
       </div>
     </div>
   );
