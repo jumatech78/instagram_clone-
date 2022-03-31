@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import AvatarCard from "./components/AvatarCard";
 import PostCard from "./components/PostCard";
+import Userprofile from "./components/Userprofile";
 
 function App() {
   const stories = [
@@ -44,7 +45,8 @@ function App() {
           <PostCard/>
         </div>
         <div className="profile_section">
-          <h3>UserProfile</h3>
+          <Userprofile/>
+          {/* <h3>UserProfile</h3> */}
         </div>
       </div>
     </div>
